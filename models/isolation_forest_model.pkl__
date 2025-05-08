@@ -1,0 +1,42 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7968d2d4-b2ea-4b77-ab8b-386d5c9b7593",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from sklearn.ensemble import IsolationForest\n",
+    "\n",
+    "# Suponha que você já tenha treinado seu modelo 'clf_isolation_forest'\n",
+    "clf_isolation_forest = IsolationForest()\n",
+    "clf_isolation_forest.fit(X_train)\n",
+    "\n",
+    "# Salvar o modelo em um arquivo .pkl\n",
+    "joblib.dump(clf_isolation_forest, 'models/isolation_forest_model.pkl')\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

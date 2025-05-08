@@ -1,0 +1,43 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2e967da6-49a7-44b1-8330-b843d09324e0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import joblib\n",
+    "from sklearn.tree import DecisionTreeClassifier\n",
+    "\n",
+    "# Suponha que você já tenha treinado seu modelo 'clf_arvore_decisao'\n",
+    "clf_arvore_decisao = DecisionTreeClassifier()\n",
+    "clf_arvore_decisao.fit(X_train, y_train)\n",
+    "\n",
+    "# Salvar o modelo em um arquivo .pkl\n",
+    "joblib.dump(clf_arvore_decisao, 'models/arvore_decisao_model.pkl')\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
