@@ -1,4 +1,4 @@
-🧠 Soluções Inteligentes para Dados Escassos – Modelagem, Análise e Machine Learning Explicável
+📊 Cold Start Analytics – Sistema Inteligente de Análise e Classificação em Dados Escassos
 
 Autor: Daniel Victor Simões Neves
 
