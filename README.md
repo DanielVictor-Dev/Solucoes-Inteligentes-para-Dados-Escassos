@@ -22,27 +22,36 @@ Integração de modelos híbridos + feedback supervisionado para melhoria contí
 🔧 Pipeline e Processos Executados
 
 1️⃣ Entendimento do Problema
-Definição de variáveis críticas para tomada de decisão em cenários sem histórico.
 
-Identificação de padrões suspeitos e sinais importantes.
+- Definição de variáveis críticas para tomada de decisão em cenários sem histórico.
+
+- Identificação de padrões suspeitos e sinais importantes.
 
 2️⃣ Geração e Simulação de Dados
-Criação de base sintética de 1.000 registros.
-Simulação de diferentes perfis, padrões e categorias de risco.
+
+- Criação de base sintética de 1.000 registros.
+
+- Simulação de diferentes perfis, padrões e categorias de risco.
 
 3️⃣ Regras de Negócio (Heurísticas)
-Implementação de regras lógicas baseadas em conhecimento do problema.
-Classificação de risco (Baixo, Médio, Alto) por meio de condições definidas.
+
+- Implementação de regras lógicas baseadas em conhecimento do problema.
+  
+- Classificação de risco (Baixo, Médio, Alto) por meio de condições definidas.
 
 4️⃣ Machine Learning Não Supervisionado
-Uso de Isolation Forest para detecção de outliers em dados sem rótulo.
+
+- Uso de Isolation Forest para detecção de outliers em dados sem rótulo.
 
 5️⃣ Machine Learning Supervisionado
-Construção de um modelo de Árvore de Decisão para auxiliar na classificação dos registros.
+
+- Construção de um modelo de Árvore de Decisão para auxiliar na classificação dos registros.
 
 6️⃣ Fusão de Abordagens (Regras + ML)
-Combinação dos resultados de regras heurísticas e scores dos modelos.
-Criação de uma matriz de decisão com três categorias:
+
+- Combinação dos resultados de regras heurísticas e scores dos modelos.
+- 
+- Criação de uma matriz de decisão com três categorias:
 
 ✅ Aprovar
 
@@ -51,9 +60,10 @@ Criação de uma matriz de decisão com três categorias:
 ❌ Rejeitar
 
 7️⃣ Ciclo de Feedback e Aprendizado Contínuo
-Simulação de um fluxo onde decisões são revisadas e realimentam os modelos.
 
-Reprocessamento para redução de falsos positivos e melhoria das métricas.
+- Simulação de um fluxo onde decisões são revisadas e realimentam os modelos.
+
+- Reprocessamento para redução de falsos positivos e melhoria das métricas.
 
 📊 Resultados Técnicos
 Métrica	Antes do Feedback	Após Feedback
