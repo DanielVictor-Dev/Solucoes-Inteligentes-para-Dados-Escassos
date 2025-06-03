@@ -76,8 +76,11 @@ Integração de modelos híbridos + feedback supervisionado para melhoria contí
 - Falsos Negativos (FN)	18.72%	Reduzido
 
 ✔️ Redução significativa de falsos positivos.
+
 ✔️ Aprimoramento das métricas após simulação de feedback.
+
 ✔️ Sistema explicável, transparente e pronto para escalabilidade.
+
 
 🛠️ Principais Competências e Ferramentas Demonstradas
 
@@ -112,9 +115,13 @@ Editar
 ├── README.md              # Documentação do projeto
 
 🎯 Por Que Este Projeto é Relevante?
+
 ✔️ Demonstra domínio de técnicas fundamentais para Ciência de Dados em ambientes do mundo real.
+
 ✔️ Foco em processos de dados completos: da geração, análise e modelagem até feedback e ajustes.
+
 ✔️ Apresenta uma abordagem prática e escalável para tomada de decisão, aplicável a diversos setores (finanças, e-commerce, indústria, serviços).
+
 ✔️ Destaca habilidades de análise, raciocínio lógico, engenharia de dados e machine learning explicável, alinhadas às demandas de mercado para Cientistas de Dados Júnior.
 
 
