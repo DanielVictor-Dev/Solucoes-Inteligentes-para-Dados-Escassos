@@ -50,7 +50,7 @@ Integração de modelos híbridos + feedback supervisionado para melhoria contí
 6️⃣ Fusão de Abordagens (Regras + ML)
 
 - Combinação dos resultados de regras heurísticas e scores dos modelos.
-- 
+  
 - Criação de uma matriz de decisão com três categorias:
 
 ✅ Aprovar
@@ -66,10 +66,14 @@ Integração de modelos híbridos + feedback supervisionado para melhoria contí
 - Reprocessamento para redução de falsos positivos e melhoria das métricas.
 
 📊 Resultados Técnicos
-Métrica	Antes do Feedback	Após Feedback
-Acurácia	77.30%	78.10%
-Falsos Positivos (FP)	1.79%	0.00%
-Falsos Negativos (FN)	18.72%	Reduzido
+
+- Métrica	Antes do Feedback	Após Feedback
+  
+- Acurácia	77.30%	78.10%
+
+- Falsos Positivos (FP)	1.79%	0.00%
+
+- Falsos Negativos (FN)	18.72%	Reduzido
 
 ✔️ Redução significativa de falsos positivos.
 ✔️ Aprimoramento das métricas após simulação de feedback.
