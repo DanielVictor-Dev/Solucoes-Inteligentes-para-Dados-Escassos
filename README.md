@@ -9,13 +9,13 @@ O projeto aborda um desafio muito comum no mercado de dados: como gerar valor e 
 
 Ao longo do desenvolvimento, foram aplicadas técnicas combinadas de:
 
-Análise exploratória e geração de dados sintéticos
+- Análise exploratória e geração de dados sintéticos
 
-Modelagem baseada em regras (heurísticas)
+- Modelagem baseada em regras (heurísticas)
 
-Modelagem supervisionada (Árvore de Decisão)
+- Modelagem supervisionada (Árvore de Decisão)
 
-Modelagem não supervisionada (Isolation Forest para detecção de anomalias)
+- Modelagem não supervisionada (Isolation Forest para detecção de anomalias)
 
 Integração de modelos híbridos + feedback supervisionado para melhoria contínua
 
@@ -28,12 +28,10 @@ Identificação de padrões suspeitos e sinais importantes.
 
 2️⃣ Geração e Simulação de Dados
 Criação de base sintética de 1.000 registros.
-
 Simulação de diferentes perfis, padrões e categorias de risco.
 
 3️⃣ Regras de Negócio (Heurísticas)
 Implementação de regras lógicas baseadas em conhecimento do problema.
-
 Classificação de risco (Baixo, Médio, Alto) por meio de condições definidas.
 
 4️⃣ Machine Learning Não Supervisionado
@@ -44,7 +42,6 @@ Construção de um modelo de Árvore de Decisão para auxiliar na classificaçã
 
 6️⃣ Fusão de Abordagens (Regras + ML)
 Combinação dos resultados de regras heurísticas e scores dos modelos.
-
 Criação de uma matriz de decisão com três categorias:
 
 ✅ Aprovar
